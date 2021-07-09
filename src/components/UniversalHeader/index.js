@@ -29,7 +29,7 @@ export default function UniversalHeader() {
 
         <div className={style['log-area']}>
           <Button text="Signin" size="small" />
-          <Button text="Signup" size="small" />
+          <Button text="Signup" size="small" type="simple" />
         </div>
       </div>
     </div>
