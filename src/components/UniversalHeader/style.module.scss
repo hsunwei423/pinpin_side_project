@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 71.3px;
+  border-bottom: 5px solid #FFDF65;
+
+  ul {
+    max-width: 908px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+  }
+}
