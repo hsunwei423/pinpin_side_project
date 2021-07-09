@@ -1,0 +1,22 @@
+.container {
+  background: #FFDF65;
+  border: 1px solid #FFDF65;
+  border-radius: 26px;
+  padding: 7px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  &.small {
+    max-width: 96px;
+  }
+
+  &.medium {
+    max-width: 312px; 
+  }
+
+  &.large {
+    max-width: 452px;
+  }
+}
