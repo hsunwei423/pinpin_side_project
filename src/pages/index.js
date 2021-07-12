@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
 import Layout from '@/components/Layout';
+import MainSale from '@/components/MainSale';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Head>
         <title>拼拼</title>
       </Head>
+      <MainSale />
     </Layout>
   )
 }
