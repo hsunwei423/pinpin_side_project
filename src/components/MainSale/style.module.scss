@@ -19,3 +19,23 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+.info-container {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 24px;
+
+  .img-wrapper {
+    border-radius: 50px;
+    img {
+      border-radius: 50px;
+      object-fit: cover;
+      width: 100%;
+    }
+  }
+  .info-wrapper {
+
+  }
+}
+

@@ -13,6 +13,14 @@ export default function MainSale() {
           <h2>LivePhotos 魔法拍立得</h2>
         </div>
         
+        <div className={style['info-container']}>
+          <div className={style['img-wrapper']}>
+            <img src="imgs/livePhoto.jpeg" alt="livePhoto" />
+          </div>
+          <div className={style['info-wrapper']}>
+
+          </div>
+        </div>
       </div>
     </section>
   )
