@@ -4,10 +4,15 @@
   justify-content: center;
   height: 71.3px;
   border-bottom: 5px solid #FFDF65;
+  width: 100%;
+  position: sticky;
+  z-index: 10;
+  top: 0;
 
   .wrapper {
-    max-width: 908px;
+    margin: 0 16px;
     width: 100%;
+    max-width: 1600px;
     display: flex;
     align-items: center;
   }
