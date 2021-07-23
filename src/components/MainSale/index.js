@@ -1,5 +1,6 @@
 
 import Tag from '@/components/common/Tag';
+import ProgressBar from '@/components/common/ProgressBar';
 
 import style from './style.module.scss';
 
@@ -20,6 +21,7 @@ export default function MainSale() {
           <div className={style['info-wrapper']}>
             <div className={style['target-price']}>目標 ＄{600000}</div>
             <div className={style.price}>${280047}</div>
+            <ProgressBar percent={41} />
           </div>
         </div>
       </div>
