@@ -18,7 +18,8 @@ export default function MainSale() {
             <img src="imgs/livePhoto.jpeg" alt="livePhoto" />
           </div>
           <div className={style['info-wrapper']}>
-
+            <div className={style['target-price']}>目標 ＄{600000}</div>
+            <div className={style.price}>${280047}</div>
           </div>
         </div>
       </div>
