@@ -1,5 +1,6 @@
 .container {
   background-color: #F8F9FA;
+  padding: 16px 12px;
 }
 
 .wrapper {
@@ -10,4 +11,11 @@
 
 .tag {
   margin-top: 48.9px;
+}
+
+.title {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }

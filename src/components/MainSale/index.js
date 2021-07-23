@@ -8,7 +8,11 @@ export default function MainSale() {
     <section className={style.container}>
       <div className={style.wrapper}>
         <Tag className={style.tag} text="魔法科技" />
-        <h2>拍出會動的照片 | LivePhotos 魔法拍立得</h2>
+        <div className={style.title}>
+          <h2>拍出會動的照片 |&ensp;</h2>
+          <h2>LivePhotos 魔法拍立得</h2>
+        </div>
+        
       </div>
     </section>
   )
