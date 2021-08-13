@@ -2,13 +2,15 @@
   background: #FFDF65;
   border: 1px solid #FFDF65;
   border-radius: 26px;
-  padding: 7px 32px;
+  padding: 12px 32px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   color: #636057;
   cursor: pointer;
+  font-weight: 500;
+  color: #858377;
 
   &.small {
     max-width: 96px;
@@ -19,7 +21,7 @@
   }
 
   &.large {
-    max-width: 452px;
+    max-width: 100%;
   }
 
   &.simple {

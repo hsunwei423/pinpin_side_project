@@ -2,6 +2,7 @@
 import Tag from '@/components/common/Tag';
 import ProgressBar from '@/components/common/ProgressBar';
 import Section from '@/components/common/Section';
+import Button from '@/components/common/Button';
 
 import style from './style.module.scss';
 
@@ -15,7 +16,8 @@ const mock = {
   sponsorLastDay: 27,
   deadlineTime: 1623715199,
   isTracked: true,
-
+  description1: '專案募資中！',
+  description2: '在 2021/06/14 23:59 募資結束前，您都可以贊助我們！'
 };
 
 export default function MainSale() {
@@ -51,8 +53,36 @@ export default function MainSale() {
                   </div>
                 </div>
               </div>
-            </div>
 
+              <div className={style['icon_list']}>
+                <img src="imgs/icon_good01.svg" />
+                <img src="imgs/icon_good02.svg" />
+                <img src="imgs/icon_good03.svg" />
+                <img src="imgs/icon_good04.svg" />
+              </div>
+
+              <div className={style.description}>
+                <p>{mock.description1}</p>
+                <p>{mock.description2}</p>
+              </div>
+
+              <Button
+                text="贊助專案"
+                type="primary"
+                size="large"
+              />
+
+              <div className={style['btn-wrapper']}>
+                <Button 
+                  text="追蹤專案"
+                  type="simple"
+                />
+                <Button 
+                  text="分享"
+                  type="simple"
+                />
+              </div>
+            </div>
           </div>
       </Section>
     </section>
