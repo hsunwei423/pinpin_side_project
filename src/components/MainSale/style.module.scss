@@ -3,12 +3,6 @@
   padding: 16px 12px;
 }
 
-.wrapper {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1600px;
-}
-
 .tag {
   margin-top: 48.9px;
 }
@@ -35,7 +29,31 @@
     }
   }
   .info-wrapper {
-
+    .sponsor {
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .title {
+        font-size: 14px;
+        color: #636057;
+        // margin-bottom: 16px;
+      }
+      .value {
+        font-size: 32px;
+        color: #494846;
+        line-height: 56px;
+        font-weight: 500;
+        display: flex;
+        align-items: cnter;
+      }
+      .people {
+        flex: 1;
+      }
+      .day {
+        flex: 1;
+      }
+    }
   }
 }
 
